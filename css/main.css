@@ -115,7 +115,7 @@ div > article {
   background-color: #FFFFFF;
   border: 1px solid #ddcfea;
   border-radius: 5px;
-  padding: 1.25rem;
+  padding: 0rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -125,11 +125,11 @@ div > article {
 article a {
   font-size: 1.125rem;
   font-weight: bold;
-  background-color: #bdbdbd;
+  background-color: #ddcfea;
   color: #000;
   text-decoration: none;
   margin: 1.5rem 0 0 0;
-  padding: .75em;
+  padding: .75rem;
   text-align: center;
   border-radius: 20px;
 
