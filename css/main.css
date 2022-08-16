@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Quicksand', sans-serif;
   line-height: 1.5rem;
 }
 
@@ -116,7 +115,7 @@ a {
   justify-content: flex-end;
 }
 
-.first-p p {
+.intro-bio p {
   text-indent: inherit;
   text-align: left;
   padding-right: 2rem;
