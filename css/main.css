@@ -89,6 +89,19 @@ nav .nav-top {
   border: 2px solid #cdb5e4;
 }
 
+nav a:visited {
+  color: #fff;
+  text-decoration: none;
+  padding: .6rem 1.25rem;
+  border-radius: 8px;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #4A1459;
+  color: #fff;
+}
+
 a {
   text-decoration: none;
   color: #222;
@@ -152,10 +165,6 @@ div > article {
 
 }
 
-.project-image {
-  overflow: hidden;
-}
-
 article h6 {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.25rem;
@@ -164,17 +173,31 @@ article h6 {
   text-decoration: underline;
 }
 
+article p {
+  margin: 0 0 auto;
+}
+
 article a {
   font-size: 1.125rem;
   font-weight: bold;
   background-color: #C7D68A;
   color: #222;
   text-decoration: none;
-  margin: 0.5rem 0 0 0;
-  padding: .75rem;
+  margin: 0.5rem;
+  padding: .5rem;
   text-align: center;
   border-radius: 10px;
 
+}
+
+.blurb {
+  text-align: center;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  margin: 1rem 3rem 3rem 3rem;
+  padding: 0 2rem;
 }
 
 .links {
@@ -188,21 +211,17 @@ article a {
   align-items: center;
 }
 
-.blurb {
-  text-align: center;
-  font-size: 1rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1rem;
-  margin: 1rem 3rem 3rem 3rem;
-  padding: 0 2rem;
-}
-
 .links ul {
-  margin: 1rem 3rem 3rem 3rem;
-  padding: 0 0 0 2rem;
+  margin: 1 3 1 3rem;
+  padding: 3 1rem;
   text-align: center;
   text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #555;
+  color: #fff;
 }
 
 footer {
@@ -210,9 +229,10 @@ footer {
   margin: 0;
   padding: 0.5rem 0;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 1rem;
   background-color: #ddcfea;
   border: 2px solid #cdb5e4;
+
 }
 
 footer p {
