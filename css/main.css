@@ -30,7 +30,7 @@ header h1 {
   font-weight: lighter;
   font-size: 5rem;
   color: #222;
-  padding-left: 2rem 1rem;
+  padding-left: 1rem;
   grid-column: 1 / -1;
   grid-row: 2;
   z-index: 1;
@@ -109,7 +109,7 @@ a {
   margin: 3rem;
   padding: 1rem 1rem;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr
+  grid-template-rows: 1fr 1fr;
   gap: 2rem;
   display: flex;
   justify-content: flex-end;
@@ -152,8 +152,16 @@ div > article {
 
 }
 
-article .project-image{
+.project-image {
+  overflow: hidden;
+}
 
+article h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline;
 }
 
 article a {
@@ -162,7 +170,7 @@ article a {
   background-color: #C7D68A;
   color: #222;
   text-decoration: none;
-  margin: 1.5rem 0 0 0;
+  margin: 0.5rem 0 0 0;
   padding: .75rem;
   text-align: center;
   border-radius: 10px;
@@ -187,7 +195,7 @@ article a {
   grid-template-columns: 1fr;
   grid-gap: 1rem;
   margin: 1rem 3rem 3rem 3rem;
-  padding: 0 0 0 1.5rem;
+  padding: 0 2rem;
 }
 
 .links ul {
