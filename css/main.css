@@ -60,11 +60,12 @@ main h1 {
   font-weight: 500;
   text-decoration: none;
   text-align: center;
+  padding-top: 2rem;
 }
 
 p {
   font-weight: lighter;
-  font-size: 0.75rem;
+  font-size: 1rem;
   line-height: 1.25rem;
   color: #222;
 }
@@ -240,7 +241,7 @@ section .links {
 }
 
 .links a:visited {
-  color: #222;
+  color: #4A1459;
   text-decoration: none;
   padding: .6rem 1.25rem;
   border-radius: 8px;
