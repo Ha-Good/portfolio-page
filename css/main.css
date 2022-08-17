@@ -43,28 +43,28 @@ header img {
 
 main h1 {
   font-family: 'Open sans', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
   text-align: left;
 }
 
 .work h2 {
   font-family: 'Open sans', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
   text-align: center;
 }
 
 .contact-me h3 {
   font-family: 'Open sans', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
   text-align: center;
 }
 
 p {
   font-weight: lighter;
-  font-size: 1rem;
+  font-size: 0.75rem;
   line-height: 1.25rem;
 }
 
@@ -129,6 +129,8 @@ a {
 }
 
 .intro-bio p {
+  font-size: 1rem;
+  line-height: 1.5rem;
   text-indent: inherit;
   text-align: left;
   padding-right: 2rem;
@@ -138,18 +140,18 @@ a {
   padding: 1rem;
   background-color: #ddcfea;
   border: 1px solid #cdb5e4;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 section .work {
   text-align: center;
-  padding: 0rem 2rem;
+  padding: 0 280px;
 }
 
 section .projects {
   display: grid;
   margin: 0;
-  padding: 2rem 0;
+  padding: 1rem 0;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
 }
@@ -157,7 +159,7 @@ section .projects {
 div > article {
   background-color: #FFFFFF;
   border: 1px solid #FFFFFF;
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 0rem;
   display: flex;
   flex-direction: column;
@@ -167,11 +169,10 @@ div > article {
 
 article h6 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.25rem;
-  font-weight: bolder;
-  font-style: italic;
-  text-align: center;
-  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  
 }
 
 article p {
@@ -185,10 +186,10 @@ article a {
   background-color: #C7D68A;
   color: #222;
   text-decoration: none;
-  margin: 0.5rem;
-  padding: .5rem;
+  margin: 0.25rem;
+  padding: .25rem;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 0px;
 
 }
 
@@ -196,8 +197,8 @@ article a:visited {
   background-color: #9F9D54;
   color: #FFF;
   text-decoration: none;
-  padding: .6rem 1.25rem;
-  border-radius: 8px;
+  padding: 0.25rem;
+  border-radius: 0px;
 }
 
 article a:hover,
@@ -213,7 +214,7 @@ article a:focus {
   grid-template-columns: 1fr;
   grid-gap: 1rem;
   margin: 1rem 3rem 3rem 3rem;
-  padding: 0 2rem;
+  padding: 0 280px;
 }
 
 .links {
