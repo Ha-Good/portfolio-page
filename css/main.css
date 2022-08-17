@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   line-height: 1.5rem;
 }
 
@@ -63,7 +63,6 @@ main h1 {
 }
 
 p {
-  font-family: 'Quicksand', sans-serif;
   font-weight: lighter;
   font-size: 1rem;
   line-height: 1.25rem;
@@ -110,6 +109,7 @@ a {
  }
 
 .contactlink {
+  font-weight: bold;
   text-decoration: none;
   font-style: italic;
   color: #222;
@@ -120,7 +120,7 @@ a {
 .bio {
   display: grid;
   margin: 3rem;
-  padding: 1rem 1rem;
+  padding: 2 2rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 2rem;
@@ -166,9 +166,10 @@ div > article {
 }
 
 article h6 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.25rem;
   font-weight: bolder;
+  font-style: italic;
   text-align: center;
   text-decoration: underline;
 }
@@ -178,6 +179,7 @@ article p {
 }
 
 article a {
+  font-family: 'Open sans',sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
   background-color: #C7D68A;
@@ -188,6 +190,20 @@ article a {
   text-align: center;
   border-radius: 10px;
 
+}
+
+article a:visited {
+  background-color: #9F9D54;
+  color: #FFF;
+  text-decoration: none;
+  padding: .6rem 1.25rem;
+  border-radius: 8px;
+}
+
+article a:hover,
+article a:focus {
+  background-color: #7A8F29;
+  color: #FFF;
 }
 
 .blurb {
@@ -203,7 +219,7 @@ article a {
 .links {
   display: block;
   margin: 0;
-  padding: 0 0 0rem 0;
+  padding: 0;
   list-style-type: none;
   font-size: 0.75rem;
   display: flex;
@@ -218,10 +234,17 @@ article a {
   text-decoration: none;
 }
 
-nav a:hover,
-nav a:focus {
-  background-color: #555;
-  color: #fff;
+.links a:visited {
+  color: #222;
+  text-decoration: none;
+  padding: .6rem 1.25rem;
+  border-radius: 8px;
+}
+
+.links a:hover,
+.links a:focus {
+  background-color: #4A1459;
+  color: #FFF;
 }
 
 footer {
